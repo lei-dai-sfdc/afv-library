@@ -1,0 +1,15 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Application__c",
+        "referenceId": "ApplicationRef725"
+      },
+      "Property__c": "@PropertyRef1",
+      "User__c": "@TenantRef725",
+      "Start_Date__c": "2026-05-01",
+      "Lease_Status__c": "Pending",
+      "Employment_Info__c": "Full-time"
+    }
+  ]
+}

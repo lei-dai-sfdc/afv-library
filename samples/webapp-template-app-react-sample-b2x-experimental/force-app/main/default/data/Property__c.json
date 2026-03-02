@@ -1,0 +1,529 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef1"
+      },
+      "Name": "301 Bryant St D11",
+      "Address__c": "301 Bryant St D11\nSan Francisco, CA 94107",
+      "Property_Type__c": "Villa",
+      "Monthly_Rent__c": 8500.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef1",
+      "Bedrooms__c": 4,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 3200,
+      "Year_Built__c": 2018,
+      "Purchase_Price__c": 1850000.0,
+      "Property_Value__c": 2100000.0,
+      "Total_Units__c": 1,
+      "Description__c": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking ocean views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef2"
+      },
+      "Name": "415 Mission Street",
+      "Address__c": "415 Mission Street\nSan Francisco, CA 94105",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 5975.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef2",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1800,
+      "Year_Built__c": 2020,
+      "Purchase_Price__c": 1250000.0,
+      "Property_Value__c": 1400000.0,
+      "Total_Units__c": 1,
+      "Description__c": "A chic and fully-furnished 2-bedroom apartment with panoramic city views and modern amenities."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef3"
+      },
+      "Name": "Downtown Loft 501",
+      "Address__c": "789 Downtown St, Unit 501\nLos Angeles, CA 90014",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 2800.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef3",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1400,
+      "Year_Built__c": 2016,
+      "Purchase_Price__c": 650000.0,
+      "Property_Value__c": 750000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Modern downtown loft with high ceilings and city views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef4"
+      },
+      "Name": "Garden Studio A12",
+      "Address__c": "321 Garden St, Unit A12\nBurbank, CA 91502",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 1800.0,
+      "Property_Status__c": "Under Maintenance",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef4",
+      "Bedrooms__c": 1,
+      "Bathrooms__c": 1,
+      "Square_Footage__c": 950,
+      "Year_Built__c": 2014,
+      "Purchase_Price__c": 420000.0,
+      "Property_Value__c": 480000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Cozy garden studio in a quiet neighborhood with modern amenities."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef5"
+      },
+      "Name": "Luxury Penthouse 2600",
+      "Address__c": "950 East Paces Ferry Rd NE # 2600\nAtlanta, GA 30326",
+      "Property_Type__c": "Villa",
+      "Monthly_Rent__c": 6250.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef5",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 2400,
+      "Year_Built__c": 2019,
+      "Purchase_Price__c": 1200000.0,
+      "Property_Value__c": 1350000.0,
+      "Total_Units__c": 1,
+      "Description__c": "An elegant 3-bedroom, 3-bathroom penthouse in a gated community with luxury amenities and stunning views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef6"
+      },
+      "Name": "Sunset Towers Unit 403",
+      "Address__c": "8250 Sunset Blvd, Unit 403\nWest Hollywood, CA 90046",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 4200.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef3",
+      "Property_Owner__c": "@PropertyOwnerRef6",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1200,
+      "Year_Built__c": 2017,
+      "Purchase_Price__c": 850000.0,
+      "Property_Value__c": 950000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Modern high-rise apartment with floor-to-ceiling windows and stunning sunset views over the city."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef7"
+      },
+      "Name": "Ocean View Villa",
+      "Address__c": "1247 Ocean Blvd\nSanta Monica, CA 90401",
+      "Property_Type__c": "Single Family Home",
+      "Monthly_Rent__c": 12000.0,
+      "Property_Status__c": "Available",
+      "Property_Management_Company__c": "@CompanyRef4",
+      "Property_Owner__c": "@PropertyOwnerRef7",
+      "Bedrooms__c": 5,
+      "Bathrooms__c": 4,
+      "Square_Footage__c": 4200,
+      "Year_Built__c": 2021,
+      "Purchase_Price__c": 3200000.0,
+      "Property_Value__c": 3500000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Stunning beachfront home with direct ocean access, modern kitchen, and panoramic views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef8"
+      },
+      "Name": "Tech Hub Condo",
+      "Address__c": "2100 University Ave, Unit 15B\nPalo Alto, CA 94301",
+      "Property_Type__c": "Condo",
+      "Monthly_Rent__c": 7500.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef5",
+      "Property_Owner__c": "@PropertyOwnerRef8",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 2000,
+      "Year_Built__c": 2019,
+      "Purchase_Price__c": 1800000.0,
+      "Property_Value__c": 2000000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Modern condo in the heart of Silicon Valley with smart home features and rooftop deck."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef9"
+      },
+      "Name": "Historic Brownstone",
+      "Address__c": "456 Telegraph Hill Blvd\nSan Francisco, CA 94133",
+      "Property_Type__c": "Townhouse",
+      "Monthly_Rent__c": 9800.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef9",
+      "Bedrooms__c": 4,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 2800,
+      "Year_Built__c": 1925,
+      "Purchase_Price__c": 2100000.0,
+      "Property_Value__c": 2400000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Charming historic brownstone with original hardwood floors, exposed brick, and modern updates."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef10"
+      },
+      "Name": "Marina District Studio",
+      "Address__c": "3300 Fillmore St, Apt 2A\nSan Francisco, CA 94123",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 3200.0,
+      "Property_Status__c": "Available",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef10",
+      "Bedrooms__c": 1,
+      "Bathrooms__c": 1,
+      "Square_Footage__c": 750,
+      "Year_Built__c": 2015,
+      "Purchase_Price__c": 675000.0,
+      "Property_Value__c": 725000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Bright studio apartment in trendy Marina District with city views and modern amenities."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef11"
+      },
+      "Name": "Beverly Hills Estate",
+      "Address__c": "9200 Sunset Blvd\nBeverly Hills, CA 90210",
+      "Property_Type__c": "Villa",
+      "Monthly_Rent__c": 25000.0,
+      "Property_Status__c": "For Sale",
+      "Property_Management_Company__c": "@CompanyRef4",
+      "Property_Owner__c": "@PropertyOwnerRef11",
+      "Bedrooms__c": 7,
+      "Bathrooms__c": 6,
+      "Square_Footage__c": 8500,
+      "Year_Built__c": 2020,
+      "Purchase_Price__c": 8500000.0,
+      "Property_Value__c": 9200000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Magnificent estate with pool, tennis court, wine cellar, and breathtaking city views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef12"
+      },
+      "Name": "Downtown Office Suite",
+      "Address__c": "555 Market St, Suite 1200\nSan Francisco, CA 94105",
+      "Property_Type__c": "Commercial",
+      "Monthly_Rent__c": 15000.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef3",
+      "Property_Owner__c": "@PropertyOwnerRef12",
+      "Bedrooms__c": 0,
+      "Bathrooms__c": 4,
+      "Square_Footage__c": 5000,
+      "Year_Built__c": 2018,
+      "Purchase_Price__c": 4200000.0,
+      "Property_Value__c": 4500000.0,
+      "Total_Units__c": 10,
+      "Description__c": "Modern office space with open floor plan, conference rooms, and panoramic bay views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef13"
+      },
+      "Name": "Napa Valley Retreat",
+      "Address__c": "1050 Vineyard Rd\nNapa, CA 94558",
+      "Property_Type__c": "Single Family Home",
+      "Monthly_Rent__c": 8500.0,
+      "Property_Status__c": "Available",
+      "Property_Management_Company__c": "@CompanyRef5",
+      "Property_Owner__c": "@PropertyOwnerRef13",
+      "Bedrooms__c": 4,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 3500,
+      "Year_Built__c": 2016,
+      "Purchase_Price__c": 1850000.0,
+      "Property_Value__c": 2100000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Beautiful wine country home with vineyard views, gourmet kitchen, and outdoor entertainment area."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef14"
+      },
+      "Name": "Silicon Valley Townhome",
+      "Address__c": "875 Middlefield Rd\nMountain View, CA 94043",
+      "Property_Type__c": "Townhouse",
+      "Monthly_Rent__c": 6800.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef14",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1850,
+      "Year_Built__c": 2017,
+      "Purchase_Price__c": 1450000.0,
+      "Property_Value__c": 1600000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Contemporary townhome near tech companies with private garage and community amenities."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef15"
+      },
+      "Name": "Artistic Loft Space",
+      "Address__c": "1800 Industrial St, Unit 5\nOakland, CA 94607",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 3500.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef15",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 1,
+      "Square_Footage__c": 1600,
+      "Year_Built__c": 2015,
+      "Purchase_Price__c": 580000.0,
+      "Property_Value__c": 650000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Converted warehouse loft with soaring ceilings, exposed beams, and artistic neighborhood."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef16"
+      },
+      "Name": "Luxury High-Rise Unit",
+      "Address__c": "88 Howard St, Unit 4501\nSan Francisco, CA 94105",
+      "Property_Type__c": "Condo",
+      "Monthly_Rent__c": 11000.0,
+      "Property_Status__c": "Under Maintenance",
+      "Property_Management_Company__c": "@CompanyRef4",
+      "Property_Owner__c": "@PropertyOwnerRef16",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 2200,
+      "Year_Built__c": 2019,
+      "Purchase_Price__c": 2800000.0,
+      "Property_Value__c": 3100000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Ultra-luxury penthouse with concierge service, gym, and incredible bay and city views."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef17"
+      },
+      "Name": "Cozy Family Home",
+      "Address__c": "425 Pine St\nRedwood City, CA 94063",
+      "Property_Type__c": "Single Family Home",
+      "Monthly_Rent__c": 5200.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef3",
+      "Property_Owner__c": "@PropertyOwnerRef17",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1750,
+      "Year_Built__c": 2012,
+      "Purchase_Price__c": 1100000.0,
+      "Property_Value__c": 1280000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Charming family home with large backyard, updated kitchen, and excellent school district."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef18"
+      },
+      "Name": "Modern Studio Apartment",
+      "Address__c": "210 King St, Apt 18C\nSan Francisco, CA 94107",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 2800.0,
+      "Property_Status__c": "Available",
+      "Property_Management_Company__c": "@CompanyRef5",
+      "Property_Owner__c": "@PropertyOwnerRef18",
+      "Bedrooms__c": 1,
+      "Bathrooms__c": 1,
+      "Square_Footage__c": 650,
+      "Year_Built__c": 2020,
+      "Purchase_Price__c": 625000.0,
+      "Property_Value__c": 675000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Brand new studio with smart home features, in-unit laundry, and rooftop terrace access."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef19"
+      },
+      "Name": "Executive Suite",
+      "Address__c": "1000 California St, Unit 25A\nSan Francisco, CA 94108",
+      "Property_Type__c": "Condo",
+      "Monthly_Rent__c": 13500.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef1",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1900,
+      "Year_Built__c": 2018,
+      "Purchase_Price__c": 3200000.0,
+      "Property_Value__c": 3500000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Sophisticated executive condo with marble finishes, city views, and luxury building amenities."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef20"
+      },
+      "Name": "Historic Victorian",
+      "Address__c": "1875 Sacramento St\nSan Francisco, CA 94109",
+      "Property_Type__c": "Single Family Home",
+      "Monthly_Rent__c": 15000.0,
+      "Property_Status__c": "Renovation",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef2",
+      "Bedrooms__c": 5,
+      "Bathrooms__c": 4,
+      "Square_Footage__c": 4000,
+      "Year_Built__c": 1890,
+      "Purchase_Price__c": 4500000.0,
+      "Property_Value__c": 5200000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Fully restored Victorian mansion with period details, modern conveniences, and garden."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef21"
+      },
+      "Name": "Bayside Apartments 2B",
+      "Address__c": "1600 Bay St, Unit 2B\nSan Francisco, CA 94123",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 4500.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef3",
+      "Property_Owner__c": "@PropertyOwnerRef3",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 1,
+      "Square_Footage__c": 1100,
+      "Year_Built__c": 2014,
+      "Purchase_Price__c": 950000.0,
+      "Property_Value__c": 1050000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Bright apartment with bay views, hardwood floors, and walking distance to Marina Green."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef22"
+      },
+      "Name": "Garden Oaks Townhouse",
+      "Address__c": "2250 Oak St\nBerkeley, CA 94709",
+      "Property_Type__c": "Townhouse",
+      "Monthly_Rent__c": 4200.0,
+      "Property_Status__c": "Available",
+      "Property_Management_Company__c": "@CompanyRef4",
+      "Property_Owner__c": "@PropertyOwnerRef4",
+      "Bedrooms__c": 3,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1650,
+      "Year_Built__c": 2013,
+      "Purchase_Price__c": 875000.0,
+      "Property_Value__c": 980000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Comfortable townhouse with private patio, attached garage, and close to UC Berkeley."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef23"
+      },
+      "Name": "Startup Hub Office",
+      "Address__c": "650 Townsend St, Floor 3\nSan Francisco, CA 94103",
+      "Property_Type__c": "Commercial",
+      "Monthly_Rent__c": 22000.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef5",
+      "Property_Owner__c": "@PropertyOwnerRef5",
+      "Bedrooms__c": 0,
+      "Bathrooms__c": 6,
+      "Square_Footage__c": 8000,
+      "Year_Built__c": 2016,
+      "Purchase_Price__c": 6500000.0,
+      "Property_Value__c": 7200000.0,
+      "Total_Units__c": 15,
+      "Description__c": "Modern open office space perfect for tech startups with high-speed internet and flexible layout."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef24"
+      },
+      "Name": "Sunset District Family Home",
+      "Address__c": "1950 46th Ave\nSan Francisco, CA 94116",
+      "Property_Type__c": "Single Family Home",
+      "Monthly_Rent__c": 6800.0,
+      "Property_Status__c": "Occupied",
+      "Property_Management_Company__c": "@CompanyRef1",
+      "Property_Owner__c": "@PropertyOwnerRef6",
+      "Bedrooms__c": 4,
+      "Bathrooms__c": 3,
+      "Square_Footage__c": 2400,
+      "Year_Built__c": 2010,
+      "Purchase_Price__c": 1650000.0,
+      "Property_Value__c": 1850000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Spacious family home with modern kitchen, large basement, and proximity to Golden Gate Park."
+    },
+    {
+      "attributes": {
+        "type": "Property__c",
+        "referenceId": "PropertyRef25"
+      },
+      "Name": "Mission Bay Loft",
+      "Address__c": "350 Third St, Unit 12A\nSan Francisco, CA 94107",
+      "Property_Type__c": "Apartment",
+      "Monthly_Rent__c": 5500.0,
+      "Property_Status__c": "Under Contract",
+      "Property_Management_Company__c": "@CompanyRef2",
+      "Property_Owner__c": "@PropertyOwnerRef7",
+      "Bedrooms__c": 2,
+      "Bathrooms__c": 2,
+      "Square_Footage__c": 1400,
+      "Year_Built__c": 2019,
+      "Purchase_Price__c": 1350000.0,
+      "Property_Value__c": 1450000.0,
+      "Total_Units__c": 1,
+      "Description__c": "Contemporary loft in vibrant Mission Bay with waterfront access and modern amenities."
+    }
+  ]
+}

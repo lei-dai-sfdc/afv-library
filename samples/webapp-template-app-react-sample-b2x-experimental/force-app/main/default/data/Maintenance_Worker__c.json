@@ -1,0 +1,324 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef1"
+      },
+      "Name": "Marcus Jones",
+      "Phone__c": "(555) 123-4567",
+      "Email__c": "marcus.jones@maintenance.com",
+      "Specialty__c": "Plumbing",
+      "Years_Experience__c": 8,
+      "Active__c": true,
+      "Rating__c": 4,
+      "Hourly_Rate__c": 45.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef2"
+      },
+      "Name": "Alberto Flores",
+      "Phone__c": "(555) 234-5678",
+      "Email__c": "alberto.flores@electrical.com",
+      "Specialty__c": "Electrical",
+      "Years_Experience__c": 12,
+      "Active__c": true,
+      "Rating__c": 5,
+      "Hourly_Rate__c": 50.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef3"
+      },
+      "Name": "Robert Knox",
+      "Phone__c": "(555) 345-6789",
+      "Email__c": "robert.knox@hvac.com",
+      "Specialty__c": "HVAC",
+      "Years_Experience__c": 15,
+      "Active__c": true,
+      "Rating__c": 5,
+      "Hourly_Rate__c": 70.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef4"
+      },
+      "Name": "Diana Chen",
+      "Phone__c": "(555) 456-7890",
+      "Email__c": "diana.chen@maintenance.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 6,
+      "Active__c": true,
+      "Rating__c": 3,
+      "Hourly_Rate__c": 35.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef5"
+      },
+      "Name": "Tony Rodriguez",
+      "Phone__c": "(555) 567-8901",
+      "Email__c": "tony.rodriguez@appliance.com",
+      "Specialty__c": "Appliance Repair",
+      "Years_Experience__c": 10,
+      "Active__c": true,
+      "Rating__c": 4,
+      "Hourly_Rate__c": 50.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef6"
+      },
+      "Name": "Sarah Mitchell",
+      "Phone__c": "(555) 678-9012",
+      "Email__c": "sarah.mitchell@carpentry.com",
+      "Specialty__c": "Carpentry",
+      "Years_Experience__c": 9,
+      "Active__c": true,
+      "Rating__c": 1,
+      "Hourly_Rate__c": 30.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1494790108755-2616c0763c55?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef7"
+      },
+      "Name": "Carlos Gutierrez",
+      "Phone__c": "(555) 789-0123",
+      "Email__c": "carlos.gutierrez@painting.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 7,
+      "Active__c": true,
+      "Rating__c": 3,
+      "Hourly_Rate__c": 40.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef8"
+      },
+      "Name": "Jessica Wong",
+      "Phone__c": "(555) 890-1234",
+      "Email__c": "jessica.wong@landscaping.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 5,
+      "Active__c": true,
+      "Rating__c": 5,
+      "Hourly_Rate__c": 70.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef9"
+      },
+      "Name": "Mike Johnson",
+      "Phone__c": "(555) 901-2345",
+      "Email__c": "mike.johnson@flooring.com",
+      "Specialty__c": "Carpentry",
+      "Years_Experience__c": 11,
+      "Active__c": true,
+      "Rating__c": 2,
+      "Hourly_Rate__c": 55.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef10"
+      },
+      "Name": "Lisa Thompson",
+      "Phone__c": "(555) 012-3456",
+      "Email__c": "lisa.thompson@cleaning.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 4,
+      "Active__c": true,
+      "Rating__c": 4,
+      "Hourly_Rate__c": 40.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1494790108755-2616c0763c55?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef11"
+      },
+      "Name": "David Martinez",
+      "Phone__c": "(555) 123-4568",
+      "Email__c": "david.martinez@roofing.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 13,
+      "Active__c": true,
+      "Rating__c": 1,
+      "Hourly_Rate__c": 30.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef12"
+      },
+      "Name": "Angela Davis",
+      "Phone__c": "(555) 234-5679",
+      "Email__c": "angela.davis@security.com",
+      "Specialty__c": "Electrical",
+      "Years_Experience__c": 6,
+      "Active__c": true,
+      "Rating__c": 2,
+      "Hourly_Rate__c": 60.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef13"
+      },
+      "Name": "James Wilson",
+      "Phone__c": "(555) 345-6780",
+      "Email__c": "james.wilson@locksmith.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 8,
+      "Active__c": true,
+      "Rating__c": 3,
+      "Hourly_Rate__c": 65.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef14"
+      },
+      "Name": "Maria Garcia",
+      "Phone__c": "(555) 456-7891",
+      "Email__c": "maria.garcia@tile.com",
+      "Specialty__c": "Carpentry",
+      "Years_Experience__c": 7,
+      "Active__c": true,
+      "Rating__c": 4,
+      "Hourly_Rate__c": 40.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1494790108755-2616c0763c55?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef15"
+      },
+      "Name": "Kevin Brown",
+      "Phone__c": "(555) 567-8902",
+      "Email__c": "kevin.brown@windows.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 9,
+      "Active__c": true,
+      "Rating__c": 5,
+      "Hourly_Rate__c": 75.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef16"
+      },
+      "Name": "Patricia Lee",
+      "Phone__c": "(555) 678-9013",
+      "Email__c": "patricia.lee@pest.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 5,
+      "Active__c": true,
+      "Rating__c": 1,
+      "Hourly_Rate__c": 30.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef17"
+      },
+      "Name": "Steven Adams",
+      "Phone__c": "(555) 789-0124",
+      "Email__c": "steven.adams@elevator.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 12,
+      "Active__c": true,
+      "Rating__c": 2,
+      "Hourly_Rate__c": 80.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef18"
+      },
+      "Name": "Nicole White",
+      "Phone__c": "(555) 890-1235",
+      "Email__c": "nicole.white@pool.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 6,
+      "Active__c": true,
+      "Rating__c": 3,
+      "Hourly_Rate__c": 45.0,
+      "Employment_Type__c": "Third-Party Vendor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1494790108755-2616c0763c55?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef19"
+      },
+      "Name": "Christopher Taylor",
+      "Phone__c": "(555) 901-2346",
+      "Email__c": "chris.taylor@drywall.com",
+      "Specialty__c": "Carpentry",
+      "Years_Experience__c": 8,
+      "Active__c": true,
+      "Rating__c": 4,
+      "Hourly_Rate__c": 50.0,
+      "Employment_Type__c": "Internal Employee",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Worker__c",
+        "referenceId": "WorkerRef20"
+      },
+      "Name": "Amanda Moore",
+      "Phone__c": "(555) 012-3457",
+      "Email__c": "amanda.moore@irrigation.com",
+      "Specialty__c": "General Maintenance",
+      "Years_Experience__c": 4,
+      "Active__c": true,
+      "Rating__c": 5,
+      "Hourly_Rate__c": 35.0,
+      "Employment_Type__c": "Contractor",
+      "Profile_Picture_URL__c": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    }
+  ]
+}

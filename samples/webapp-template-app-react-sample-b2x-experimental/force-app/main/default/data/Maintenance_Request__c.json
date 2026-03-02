@@ -1,0 +1,590 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef1"
+      },
+      "Property__c": "@PropertyRef1",
+      "Tenant__c": "@TenantRef1",
+      "Assigned_Worker__c": "@WorkerRef1",
+      "Title__c": "Kitchen Faucet Leak",
+      "Description__c": "The kitchen faucet has been dripping constantly for the past week. Water pressure seems low.",
+      "Type__c": "Plumbing",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-06-01",
+      "Estimated_Cost__c": 150,
+      "Actual_Cost__c": 138,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-06-02",
+      "Completed_Date__c": "2025-06-02"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef2"
+      },
+      "Property__c": "@PropertyRef2",
+      "Tenant__c": "@TenantRef2",
+      "Assigned_Worker__c": "@WorkerRef2",
+      "Title__c": "Bedroom Outlet Not Working",
+      "Description__c": "Main bedroom electrical outlet stopped working. No power to the entire wall.",
+      "Type__c": "Electrical",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-06-11",
+      "Estimated_Cost__c": 200,
+      "Actual_Cost__c": 216,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-06-13",
+      "Completed_Date__c": "2025-06-14"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef3"
+      },
+      "Property__c": "@PropertyRef3",
+      "Tenant__c": "@TenantRef3",
+      "Assigned_Worker__c": "@WorkerRef3",
+      "Title__c": "AC Unit Making Noise",
+      "Description__c": "Air conditioning unit is making loud grinding noises when running.",
+      "Type__c": "HVAC",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-06-22",
+      "Estimated_Cost__c": 300,
+      "Actual_Cost__c": 240,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-06-25",
+      "Completed_Date__c": "2025-06-25"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef4"
+      },
+      "Property__c": "@PropertyRef4",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef4",
+      "Title__c": "General Property Inspection",
+      "Description__c": "Pre-lease general maintenance inspection and cleaning before new tenant move-in.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-07-03",
+      "Estimated_Cost__c": 500,
+      "Actual_Cost__c": 575,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-07-07",
+      "Completed_Date__c": "2025-07-08"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef5"
+      },
+      "Property__c": "@PropertyRef5",
+      "Tenant__c": "@TenantRef4",
+      "Assigned_Worker__c": "@WorkerRef5",
+      "Title__c": "Dishwasher Not Draining",
+      "Description__c": "Kitchen dishwasher is not draining properly. Water pools at the bottom after cycles.",
+      "Type__c": "Appliance",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-07-14",
+      "Estimated_Cost__c": 180,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-07-19",
+      "Completed_Date__c": "2025-07-19"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef6"
+      },
+      "Property__c": "@PropertyRef6",
+      "Tenant__c": "@TenantRef5",
+      "Assigned_Worker__c": "@WorkerRef6",
+      "Title__c": "Closet Door Off Track",
+      "Description__c": "Master bedroom sliding closet door has come off its track and won't close properly.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-07-25",
+      "Estimated_Cost__c": 75,
+      "Actual_Cost__c": 90,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-07-31",
+      "Completed_Date__c": "2025-08-01"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef7"
+      },
+      "Property__c": "@PropertyRef7",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef7",
+      "Title__c": "Exterior Touch-up Painting",
+      "Description__c": "Front entrance and window frames need touch-up painting due to weather damage.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-08-05",
+      "Estimated_Cost__c": 400,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-08-12",
+      "Completed_Date__c": "2025-08-12"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef8"
+      },
+      "Property__c": "@PropertyRef8",
+      "Tenant__c": "@TenantRef6",
+      "Assigned_Worker__c": "@WorkerRef8",
+      "Title__c": "Garden Irrigation Repair",
+      "Description__c": "Backyard sprinkler system has multiple broken heads and timer issues.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-08-16",
+      "Estimated_Cost__c": 250,
+      "Actual_Cost__c": 263,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-08-24",
+      "Completed_Date__c": "2025-08-25"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef9"
+      },
+      "Property__c": "@PropertyRef9",
+      "Tenant__c": "@TenantRef7",
+      "Assigned_Worker__c": "@WorkerRef9",
+      "Title__c": "Hardwood Floor Scratch Repair",
+      "Description__c": "Living room hardwood floors have several deep scratches that need refinishing.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-08-27",
+      "Estimated_Cost__c": 350,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-09-05",
+      "Completed_Date__c": "2025-09-05"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef10"
+      },
+      "Property__c": "@PropertyRef10",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef10",
+      "Title__c": "Deep Cleaning Service",
+      "Description__c": "Post-tenant move-out deep cleaning including carpets, windows, and appliances.",
+      "Type__c": "Cleaning",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-09-07",
+      "Estimated_Cost__c": 450,
+      "Actual_Cost__c": 504,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-09-08",
+      "Completed_Date__c": "2025-09-09"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef11"
+      },
+      "Property__c": "@PropertyRef11",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef11",
+      "Title__c": "Roof Inspection and Repair",
+      "Description__c": "Annual roof inspection revealed loose tiles that need securing before winter.",
+      "Type__c": "Structural",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-09-18",
+      "Estimated_Cost__c": 800,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-09-20",
+      "Completed_Date__c": "2025-09-20"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef12"
+      },
+      "Property__c": "@PropertyRef12",
+      "Tenant__c": "@TenantRef8",
+      "Assigned_Worker__c": "@WorkerRef12",
+      "Title__c": "Security System Update",
+      "Description__c": "Office security system needs software update and two camera replacements.",
+      "Type__c": "Security",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-09-29",
+      "Estimated_Cost__c": 600,
+      "Actual_Cost__c": 582,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-10-11",
+      "Completed_Date__c": "2025-10-12"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef13"
+      },
+      "Property__c": "@PropertyRef13",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef13",
+      "Title__c": "Front Door Lock Replacement",
+      "Description__c": "Main entrance lock is sticking and needs replacement for new tenant security.",
+      "Type__c": "Security",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-10-10",
+      "Estimated_Cost__c": 120,
+      "Actual_Cost__c": 142,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-10-11",
+      "Completed_Date__c": "2025-10-11"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef14"
+      },
+      "Property__c": "@PropertyRef14",
+      "Tenant__c": "@TenantRef9",
+      "Assigned_Worker__c": "@WorkerRef14",
+      "Title__c": "Bathroom Tile Replacement",
+      "Description__c": "Master bathroom shower has several cracked tiles that need replacement.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-10-21",
+      "Estimated_Cost__c": 280,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-11-04",
+      "Completed_Date__c": "2025-11-05"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef15"
+      },
+      "Property__c": "@PropertyRef15",
+      "Tenant__c": "@TenantRef10",
+      "Assigned_Worker__c": "@WorkerRef15",
+      "Title__c": "Window Screen Repair",
+      "Description__c": "Two bedroom windows have torn screens that need replacement.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-11-01",
+      "Estimated_Cost__c": 90,
+      "Actual_Cost__c": 110,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-11-02",
+      "Completed_Date__c": "2025-11-02"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef16"
+      },
+      "Property__c": "@PropertyRef16",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef16",
+      "Title__c": "Pest Control Treatment",
+      "Description__c": "Quarterly pest control treatment for common areas and vacant units.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-11-12",
+      "Estimated_Cost__c": 200,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-11-14",
+      "Completed_Date__c": "2025-11-15"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef17"
+      },
+      "Property__c": "@PropertyRef17",
+      "Tenant__c": "@TenantRef11",
+      "Assigned_Worker__c": "@WorkerRef17",
+      "Title__c": "Elevator Maintenance",
+      "Description__c": "Monthly elevator maintenance and inspection as required by building code.",
+      "Type__c": "Other",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-11-23",
+      "Estimated_Cost__c": 300,
+      "Actual_Cost__c": 312,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-11-25",
+      "Completed_Date__c": "2025-11-25"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef18"
+      },
+      "Property__c": "@PropertyRef18",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef18",
+      "Title__c": "Pool Chemical Balance",
+      "Description__c": "Weekly pool maintenance and chemical balancing service.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-12-04",
+      "Estimated_Cost__c": 100,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2025-12-08",
+      "Completed_Date__c": "2025-12-09"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef19"
+      },
+      "Property__c": "@PropertyRef19",
+      "Tenant__c": "@TenantRef12",
+      "Assigned_Worker__c": "@WorkerRef19",
+      "Title__c": "Drywall Hole Repair",
+      "Description__c": "Living room has a hole in the drywall that needs patching and painting.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-12-15",
+      "Estimated_Cost__c": 150,
+      "Actual_Cost__c": 173,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2025-12-20",
+      "Completed_Date__c": "2025-12-20"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef20"
+      },
+      "Property__c": "@PropertyRef20",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef20",
+      "Title__c": "Irrigation System Winterization",
+      "Description__c": "Prepare garden irrigation system for winter season to prevent freeze damage.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2025-12-26",
+      "Estimated_Cost__c": 200,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-01-01",
+      "Completed_Date__c": "2026-01-02"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef21"
+      },
+      "Property__c": "@PropertyRef21",
+      "Tenant__c": "@TenantRef13",
+      "Assigned_Worker__c": "@WorkerRef1",
+      "Title__c": "Garbage Disposal Jam",
+      "Description__c": "Kitchen garbage disposal is jammed and making unusual noises when turned on.",
+      "Type__c": "Plumbing",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-01-06",
+      "Estimated_Cost__c": 125,
+      "Actual_Cost__c": 138,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2026-01-13",
+      "Completed_Date__c": "2026-01-13"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef22"
+      },
+      "Property__c": "@PropertyRef22",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef2",
+      "Title__c": "Electrical Panel Inspection",
+      "Description__c": "Annual electrical panel inspection and circuit breaker testing.",
+      "Type__c": "Electrical",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-01-17",
+      "Estimated_Cost__c": 250,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-01-18",
+      "Completed_Date__c": "2026-01-19"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef23"
+      },
+      "Property__c": "@PropertyRef23",
+      "Tenant__c": "@TenantRef15",
+      "Assigned_Worker__c": "@WorkerRef3",
+      "Title__c": "Office HVAC Filter Change",
+      "Description__c": "Monthly HVAC filter replacement for office building common areas.",
+      "Type__c": "HVAC",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-01-28",
+      "Estimated_Cost__c": 80,
+      "Actual_Cost__c": 86,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2026-02-06",
+      "Completed_Date__c": "2026-02-06"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef24"
+      },
+      "Property__c": "@PropertyRef24",
+      "Tenant__c": "@TenantRef14",
+      "Assigned_Worker__c": "@WorkerRef4",
+      "Title__c": "Gutter Cleaning",
+      "Description__c": "Annual gutter cleaning and downspout inspection before winter season.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-02-08",
+      "Estimated_Cost__c": 180,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-02-18",
+      "Completed_Date__c": "2026-02-19"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef25"
+      },
+      "Property__c": "@PropertyRef25",
+      "Tenant__c": null,
+      "Assigned_Worker__c": "@WorkerRef5",
+      "Title__c": "Washer/Dryer Installation",
+      "Description__c": "Install new washer and dryer units in laundry room for incoming tenant.",
+      "Type__c": "Appliance",
+      "Priority__c": "High",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-02-19",
+      "Estimated_Cost__c": 200,
+      "Actual_Cost__c": 232,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2026-02-20",
+      "Completed_Date__c": "2026-02-20"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef26"
+      },
+      "Property__c": "@PropertyRef1",
+      "Tenant__c": "@TenantRef1",
+      "Assigned_Worker__c": "@WorkerRef6",
+      "Title__c": "Cabinet Door Hinge Repair",
+      "Description__c": "Kitchen cabinet door hinge is loose and door won't close properly.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-03-02",
+      "Estimated_Cost__c": 50,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-03-14",
+      "Completed_Date__c": "2026-03-15"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef27"
+      },
+      "Property__c": "@PropertyRef2",
+      "Tenant__c": "@TenantRef2",
+      "Assigned_Worker__c": "@WorkerRef7",
+      "Title__c": "Interior Wall Touch-up",
+      "Description__c": "Living room wall has scuff marks and nail holes that need touch-up painting.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-03-13",
+      "Estimated_Cost__c": 120,
+      "Actual_Cost__c": 115,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2026-03-26",
+      "Completed_Date__c": "2026-03-26"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef28"
+      },
+      "Property__c": "@PropertyRef3",
+      "Tenant__c": "@TenantRef3",
+      "Assigned_Worker__c": "@WorkerRef8",
+      "Title__c": "Balcony Plant Maintenance",
+      "Description__c": "Monthly balcony garden maintenance and plant care service.",
+      "Type__c": "Other",
+      "Priority__c": "Standard",
+      "Status__c": "Resolved",
+      "Date_Requested__c": "2026-03-24",
+      "Estimated_Cost__c": 75,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-04-07",
+      "Completed_Date__c": "2026-04-08"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef29"
+      },
+      "Property__c": "@PropertyRef5",
+      "Tenant__c": "@TenantRef4",
+      "Assigned_Worker__c": "@WorkerRef9",
+      "Title__c": "Laminate Floor Repair",
+      "Description__c": "Bedroom laminate flooring has a warped plank that needs replacement.",
+      "Type__c": "Structural",
+      "Priority__c": "Standard",
+      "Status__c": "New",
+      "Date_Requested__c": "2026-04-04",
+      "Estimated_Cost__c": 160,
+      "Actual_Cost__c": 130,
+      "Tenant_Present__c": true,
+      "Scheduled_Date__c": "2026-04-05"
+    },
+    {
+      "attributes": {
+        "type": "Maintenance_Request__c",
+        "referenceId": "MaintenanceRef30"
+      },
+      "Property__c": "@PropertyRef6",
+      "Tenant__c": "@TenantRef5",
+      "Assigned_Worker__c": "@WorkerRef10",
+      "Title__c": "Carpet Steam Cleaning",
+      "Description__c": "Annual carpet deep cleaning for all carpeted areas in the unit.",
+      "Type__c": "Cleaning",
+      "Priority__c": "Standard",
+      "Status__c": "In Progress",
+      "Date_Requested__c": "2026-04-15",
+      "Estimated_Cost__c": 220,
+      "Actual_Cost__c": 224,
+      "Tenant_Present__c": false,
+      "Scheduled_Date__c": "2026-04-17"
+    }
+  ]
+}
